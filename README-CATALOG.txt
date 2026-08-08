@@ -1,17 +1,16 @@
 ISL DISTRIBUTORS – PRODUCT CATALOGUE WEBSITE
 
-This package adds 5 linked catalogue pages:
+Included catalogue pages:
 - automotive.html
 - household.html
 - facility.html
 - beverages.html
 - general-goods.html
 
-The homepage category buttons now open these pages.
-Each product card includes an image, Available Size field, Price field, telephone link and email link.
+The homepage category links open the relevant catalogue page. Product cards include product imagery, size and price information areas, telephone contact, and email contact.
 
-IMPORTANT: Exact selling prices and final package sizes were not provided, so those fields currently say “Contact ISL”. Replace them in the corresponding HTML page when your prices and sizes are confirmed.
+Business contact:
+Cellphone: 758 723 5063
+Email: info@isldistributors.com
 
-Product artwork found from your earlier ISL files has been used for Automotive, Household and one Facility product. Beverage and General Goods graphics are branded placeholders until real product photos are supplied.
-
-To publish on Netlify, upload the COMPLETE folder/ZIP so index.html, the five product pages, styles.css, script.js and assets all remain together.
+For deployment, keep index.html, the catalogue pages, styles.css, script.js, and the assets folder together.
