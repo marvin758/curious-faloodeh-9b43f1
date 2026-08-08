@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062950"/><stop offset="1" stop-color="#0b86d4"/></linearGradient></defs>
+    <rect width="800" height="620" rx="36" fill="url(#g)"/>
+    <circle cx="665" cy="95" r="170" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
+    <circle cx="115" cy="540" r="145" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
+    <g transform="translate(120 40)" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><path d="M245 170h100v230H215V255c0-42 30-60 30-85z"/><path d="M250 115h80l20 35h-105z"/><path d="M330 115l70 12"/><path d="M255 285h50"/></g>
+    <text x="55" y="500" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#fff">Housekeeping Supplies</text>
+    <text x="55" y="548" font-family="Arial, sans-serif" font-size="24" fill="#d7efff">Hotels • Resorts • Facilities</text>
+    <text x="55" y="588" font-family="Arial, sans-serif" font-size="18" fill="#8ed4f7">ISL Distributors • Product image placeholder</text>
+    </svg>
