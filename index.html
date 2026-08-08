@@ -33,7 +33,7 @@
         <a href="#products">Products</a>
         <a href="#business">Business Supply</a>
         <a href="#contact">Contact</a>
-        <a class="nav-button" href="#contact">Request a Quote</a>
+        <a class="nav-button" href="#contact">Contact ISL</a>
       </nav>
     </div>
   </header>
@@ -48,7 +48,7 @@
           <p class="hero-lead">A growing distribution partner supplying beverages, household products, automotive care, hotel cleaning products and solutions, facility essentials and a wider range of consumer and business goods—backed by responsive local service.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#products">Explore Our Products</a>
-            <a class="button button-ghost" href="#contact">Request a Quote</a>
+            <a class="button button-ghost" href="#contact">Contact ISL</a>
           </div>
           <div class="hero-proof" aria-label="ISL service highlights">
             <div><strong>Quality</strong><span>Products selected for performance</span></div>
@@ -128,7 +128,7 @@
             <div class="product-copy">
               <h3>Car Wash &amp; Wax</h3>
               <p>Convenient cleaning and shine support for routine vehicle care.</p>
-              <button class="product-enquiry" type="button" data-product="Car Wash & Wax">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -140,7 +140,7 @@
             <div class="product-copy">
               <h3>Car Protectant</h3>
               <p>A finishing solution created to help maintain a clean, attractive appearance.</p>
-              <button class="product-enquiry" type="button" data-product="Car Protectant">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -152,7 +152,7 @@
             <div class="product-copy">
               <h3>Dishwashing Liquid</h3>
               <p>Fresh, effective everyday dish care for homes and commercial kitchens.</p>
-              <button class="product-enquiry" type="button" data-product="Dishwashing Liquid">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -164,7 +164,7 @@
             <div class="product-copy">
               <h3>Liquid Detergent</h3>
               <p>Practical liquid cleaning in appealing scent and size options.</p>
-              <button class="product-enquiry" type="button" data-product="Liquid Detergent">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -176,7 +176,7 @@
             <div class="product-copy">
               <h3>Soap Powder</h3>
               <p>Fresh-scented cleaning power for routine washing and general cleaning.</p>
-              <button class="product-enquiry" type="button" data-product="Soap Powder">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -188,7 +188,7 @@
             <div class="product-copy">
               <h3>Hotel &amp; Facility Cleaning Solutions</h3>
               <p>Cleaning chemicals, housekeeping products and operational essentials for hotels, resorts, offices, institutions and service teams.</p>
-              <button class="product-enquiry" type="button" data-product="Hotel and Facility Cleaning Solutions">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -200,7 +200,7 @@
             <div class="product-copy">
               <h3>Beverage Distribution</h3>
               <p>Soft drinks, juices, water and other beverage opportunities for retail, hospitality and wholesale supply.</p>
-              <button class="product-enquiry" type="button" data-product="Beverage Distribution">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
 
@@ -212,7 +212,7 @@
             <div class="product-copy">
               <h3>Consumer &amp; Business Goods</h3>
               <p>A flexible category for additional packaged goods, everyday essentials and new products introduced as ISL expands.</p>
-              <button class="product-enquiry" type="button" data-product="Consumer and Business Goods">Request product details <span>→</span></button>
+              <a class="product-enquiry" href="#contact">Contact ISL <span>→</span></a>
             </div>
           </article>
         </div>
@@ -256,7 +256,7 @@
 
     <section class="section contact-section" id="contact">
       <div class="container contact-layout">
-        <div class="contact-copy reveal">
+        <div class="contact-copy reveal" style="grid-column: 1 / -1;">
           <p class="eyebrow">Contact ISL</p>
           <h2>Tell us what you need.</h2>
           <p>Send us a product, sourcing, wholesale or general distribution enquiry. Whether you need beverages, household cleaning products, hotel and hospitality cleaning solutions, automotive care, facility supplies or another product category, tell us what you are looking for.</p>
@@ -265,42 +265,9 @@
             <article><span>Service Area</span><strong>Saint Lucia</strong></article>
             <article><span>Business Name</span><strong>Island Supply Leaders Distributors</strong></article>
             <article><span>Email</span><strong class="editable-detail">info@isldistributors.com</strong></article>
-            <article><span>Telephone / WhatsApp</span><strong class="editable-detail">Add business number</strong></article>
+            <article><span>Cellphone</span><strong class="editable-detail"><a href="tel:+17587235063">758 723 5063</a></strong></article>
           </div>
         </div>
-
-        <form class="quote-form reveal" name="quote-request" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="quote-request">
-          <p class="hidden-field"><label>Do not fill this out: <input name="bot-field"></label></p>
-
-          <div class="form-heading">
-            <span>Request a Quote</span>
-            <h3>How can ISL assist?</h3>
-          </div>
-
-          <div class="form-grid">
-            <label>Full name<input type="text" name="name" autocomplete="name" required></label>
-            <label>Business / organization<input type="text" name="business" autocomplete="organization"></label>
-            <label>Email address<input type="email" name="email" autocomplete="email" required></label>
-            <label>Phone number<input type="tel" name="phone" autocomplete="tel"></label>
-            <label class="full">Enquiry type
-              <select name="enquiry-type" id="enquiry-type" required>
-                <option value="">Choose an option</option>
-                <option>Product information</option>
-                <option>Retail or wholesale supply</option>
-                <option>Facility supply</option>
-                <option>Hotel / hospitality cleaning supply</option>
-                <option>Beverages or consumer goods</option>
-                <option>Product sourcing</option>
-                <option>Request a quotation</option>
-                <option>General enquiry</option>
-              </select>
-            </label>
-            <label class="full">Message<textarea name="message" id="message" rows="6" required placeholder="Tell us which products, quantities or services you are interested in."></textarea></label>
-          </div>
-          <button class="button button-primary form-button" type="submit">Send Enquiry</button>
-          <p class="form-note">This form is prepared for Netlify Forms. Enable form notifications in your Netlify dashboard after deployment.</p>
-        </form>
       </div>
     </section>
   </main>
